@@ -1,5 +1,15 @@
 # Pokeapi
 
+## Version Desktop
+
+![image](https://user-images.githubusercontent.com/81714676/154382758-a785cdc4-d4ba-496e-827c-f5e36631d8ae.png)
+
+
+## Version Mobile 
+
+![image](https://user-images.githubusercontent.com/81714676/154382889-bf393d9b-adba-48c9-8edc-1147545ade5b.png)
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
 
 ## Development server
