@@ -1,0 +1,10 @@
+<div class="flex pt-10 px-10 ">
+  <div  [routerLink]="['/card-info', pokemonData.name]" class="grass flex justify-end gap-8 items-center p-4 w-[100vw] bg-slate-50 rounded-lg shadow-sm hover:scale-[1.02] ease-in-out duration-500 delay-50 drop-shadow-lg  cursor-pointer">
+    <div *ngFor="let item of pokemonData.type?.types">
+      <img src="https://typedex.app/images/ui/types/dark/{{ item.name }}.svg" alt="" width="20px" height="20px">
+    </div>
+    <span class="text-xl">{{ pokemonData.name | titlecase }}</span>
+    <img class="w-1/5 md:w-1/12 lg:w-[8rem] min-h-min hover:scale-[1.3] ease-in-out duration-500 delay-50" width="30px" height="30px" [src]="pokemonData.img" alt="pokemon default" srcset="" />
+  </div>
+</div>
+
